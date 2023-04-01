@@ -1,0 +1,11 @@
+.card{
+  width: 18rem;
+  margin : auto;
+}
+
+.poke{
+  height:25%;
+  display:flex;
+  width:25%;
+  margin-top: 100;
+}
