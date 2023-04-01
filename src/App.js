@@ -5,7 +5,7 @@ import Card from "./Card.js";
 function App() {
   const [allPokemons, setAllPokemons] = useState([]);
   const [loadMore, setLoadMore] = useState(
-    "https://pokeapi.co/api/v2/pokemon?limit=1000"
+    "https://pokeapi.co/api/v2/pokemon?limit=900"
   );
 
   const getAllPokemons = async () => {
